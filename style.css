@@ -1,7 +1,17 @@
+.orange-acces {
+	color: #ef6f34 !important;
+}
+
 .btn-acces {
 	background-color: #ef6f34 !important;
 	/* font-weight: 200 !important; */
 }
+
+/* #bloc-5-cta h2 {
+	font-size: 32px;
+	color: white !important;
+	z-index: -22 !important;
+} */
 
 body {
 	margin: 0;
@@ -760,7 +770,7 @@ h4 {
 }
 
 .black-background {
-	background-color: rgba(165, 147, 99, 0.7);
+	background-color: rgba(105, 87, 39, 0.7);
 	padding: 40px 40px 40px 40px;
 }
 
