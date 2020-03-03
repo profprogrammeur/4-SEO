@@ -1,3 +1,19 @@
+.orange-acces {
+	color: #ef6f34 !important;
+}
+
+.btn-acces {
+	background-color: #ef6f34 !important;
+	/* font-weight: 200 !important; */
+}
+
+.hover-zoom:hover {
+	transform: scale(1.2);
+}
+/* #contactez {
+	transform: scale(1.2) !important;
+} */
+
 body {
 	margin: 0;
 	padding: 0;
@@ -10,11 +26,11 @@ body {
 a,
 button {
 	transition: all 0.3s ease-in-out;
-	outline: none !important;
+	/* outline: none !important; */
 }
 
 a:hover {
-	text-decoration: none;
+	/* text-decoration: none; */
 	cursor: pointer;
 }
 
@@ -759,7 +775,7 @@ h4 {
 }
 
 .black-background {
-	background-color: rgba(165, 147, 99, 0.7);
+	background-color: rgba(105, 87, 39, 0.7);
 	padding: 40px 40px 40px 40px;
 }
 
