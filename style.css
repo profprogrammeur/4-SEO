@@ -1,3 +1,11 @@
+.fa-chevron-left {
+background-image: url(img/fa-twitter.svg) !important;
+  /* background-repeat: no-repeat; */
+  /* background-position: center right; */
+  /* padding-right: 18px; */
+}
+
+
 .svg-dark-slate-blue {
     fill:#364577 !important;
     /* -webkit-filter: blur(5px); */
@@ -34,6 +42,12 @@
     display: flex !important;
     align-items: center;
     flex-direction: column;
+}
+
+.centerv {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+
 }
 
 body {
@@ -130,7 +144,7 @@ a:hover {
 
 .texture-paper::before {
 	background: url("img/texture-paper.png");
-	background-size: 280px 280px;
+	background-size: 60px 60px;
 }
 
 .b-parallax {
@@ -501,7 +515,7 @@ nav .caret {
 }
 
 button {
-	outline: none !important;
+	/* outline: none !important; */
 }
 
 .btn-rd {
