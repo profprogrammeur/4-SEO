@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="Default">
 	<head>
-		<meta charset="utf-8" />
-		<meta name="keywords" content="" />
-		<meta name="description" content="" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-		/>
-		<link rel="shortcut icon" type="image/png" href="favicon.jpg" />
-
-	
-		<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="style.css" />
-
+        <meta charset="utf-8" />
+        <meta name="keywords" content="agence design Lyon, entreprise webdesign Lyon, agence web
+                 entreprise web, design, web design, design internet" />
+        <meta name="description" content="Agence de webdesign à Lyon, réalisation de site internet sur mesure" />
+        <meta name="robots" content="index, follow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@lachouetteagence" />
+        <meta name="twitter:creator" content="@profprogrammeur" />
+        <meta property="og:title" content="La Chouette Agence" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://profprogrammeur.github.io/4-SEO/index.html" />
+        <meta property="og:image" content="https://profprogrammeur.github.io/4-SEO/img/logo.png" />
+        <meta property="og:description" content="WebDesign à Lyon - La Chouette Agence" />
+        <link rel="apple-touch-icon" sizes="114x114" href="img/fav/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/fav/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/fav/favicon-16x16.png">
+        <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
 
 		<title>Contact - La Chouette Agence</title>
 
@@ -32,7 +39,7 @@
 							<a class="navbar-brand" href="index.html"
 								><img
 									src="img/la-chouette-agence.png"
-									alt="atlanta web design logo"
+									alt="La Chouette agence Webdesign à Lyon"
 									height="40"
 							/></a>
 							<button
@@ -47,17 +54,16 @@
 								><span class="icon-bar"></span>
 							</button>
 						</div>
-						<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+						<nav class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 							<ul class="site-navigation nav navbar-nav">
 								<li class="hover-zoom">
 									<a href="index.html">Accueil</a>
 								</li>
-								<li></li>
 								<li class="hover-zoom">
-									<a href="page2.html">Contact &gt;</a>
+									<a href="contact.html">Contact</a>
 								</li>
 							</ul>
-						</div>
+						</nav>
 					</nav>
 				</div>
 			</div>
@@ -96,16 +102,19 @@
 								novalidate
 								success-msg="Your message has been sent."
 								fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
-							>
+                            >
+                            <fieldset>
+                                <legend>Formulaire de contact</legend>
+                            </fieldset>
 								<div class="form-group">
-									<label>
+									<label for="name">
 										Nom
 									</label>
-									<input id="name" class="form-control" required />
+									<input id="name" class="form-control" required "/>
 								</div>
 								<div class="form-group">
-									<label>
-										Adresse email
+									<label for="email">
+										Adresse Email
 									</label>
 									<input
 										id="email"
@@ -115,18 +124,18 @@
 									/>
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="input_504">
 										Comment nous avez-vous connu ?
 									</label>
 									<input
 										class="form-control"
-										type="email"
+										type="text"
 										required
-										id="input_504"
+                                        id="input_504"
 									/>
 								</div>
 								<div class="form-group">
-									<label>
+									<label for="message">
 										Brief de votre projet (Ajoutez autant de détails que
 										nécessaire)<br /> </label
 									><textarea
@@ -145,7 +154,6 @@
 								</button>
 							</form>
 						</div>
-                        <!-- <div class="row centerv"> -->
                             <address class="col-sm-6 centerv ">
 							<h2 class="text-center ">
                                 <a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a>
@@ -153,7 +161,6 @@
 								de <time datetime="09:00">9h</time> à <time datetime="18:00">18h</time>, du lundi au vendredi<br />
 							</h2>
 						    </address>
-                        <!-- </div> -->
                         
 					</div>
 				</div>
@@ -162,7 +169,7 @@
 
 			<!-- ScrollToTop Button -->
 			<a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"
-				><span class="fa fa-chevron-up"><img src="img/fa-chevron-up.svg" class="" width="15"></span
+				><span class="fa fa-chevron-up"><img src="img/fa-chevron-up.svg" class="" width="15" alt="flèche en haut pour remonter"></span
 			></a>
 			<!-- ScrollToTop Button END-->
 
@@ -174,42 +181,24 @@
                         <p class="text-center">
                             La chouette agence - Agence web basée à Lyon.<br />
                         </p>
-                        <div class="social-footer text-center row row-no-gutters mg-md">
-                            <!-- <div class="col-sm-3"> -->
-                            <div class="text-center hover-zoom">
-                                <!-- <a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>        -->
-                                <a class="social" href="index.html"><img src="img/fa-twitter.svg" class="icon-md"
-                                        width="35"></a>
-        
+                            <div class="social-footer text-center row row-no-gutters mg-md">
+                                <div class="text-center hover-zoom">
+                                    <a class="social" href="index.html"><img alt="lien twitter" src="img/fa-twitter.svg" class="icon-md"
+                                            width="35"></a>
+                                </div>
+                                <div class="text-center hover-zoom">
+                                    <a class="social" href="index.html"><img alt="lien facebook" src="img/fa-facebook.svg" class="icon-md"
+                                            width="35"></a>
+                                </div>
+                                <div class="text-center hover-zoom">
+                                    <a class="social" href="index.html"><img alt="lien dribble" src="img/fa-dribbble.svg" class="icon-md"
+                                            width="35"></a>
+                                </div>
+                                <div class="text-center hover-zoom">
+                                    <a class="social" href="index.html"><img alt="lien instagram" src="img/fa-instagram.svg" class="icon-md"
+                                            width="35"></a>
+                                </div>
                             </div>
-                            <!-- </div> -->
-                            <!-- <div class="col-sm-3"> -->
-                            <div class="text-center hover-zoom">
-                                <!-- <a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a> -->
-                                <a class="social" href="index.html"><img src="img/fa-facebook.svg" class="icon-md"
-                                        width="35"></a>
-        
-                            </div>
-                            <!-- </div> -->
-                            <!-- <div class="col-sm-3"> -->
-                            <div class="text-center hover-zoom">
-                                <!-- <a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a> -->
-                                <a class="social" href="index.html"><img src="img/fa-dribbble.svg" class="icon-md"
-                                        width="35"></a>
-        
-                            </div>
-                            <!-- </div> -->
-                            <!-- <div class="col-sm-3"> -->
-                            <div class="text-center hover-zoom">
-                                <!-- <a class="social" href="index.html"><span
-                                                    class="fa fa-instagram icon-md"></span></a> -->
-                                <a class="social" href="index.html"><img src="img/fa-instagram.svg" class="icon-md"
-                                        width="35"></a>
-        
-                            </div>
-                            <!-- </div> -->
-        
-                        </div>
                      
                     </div>
                 </div>
