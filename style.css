@@ -1,15 +1,10 @@
 .fa-chevron-left {
-background-image: url(img/fa-twitter.svg) !important;
-  /* background-repeat: no-repeat; */
-  /* background-position: center right; */
-  /* padding-right: 18px; */
+background-image: url(img/fa/fa-twitter.svg) !important;
 }
 
 
 .svg-dark-slate-blue {
     fill:#364577 !important;
-    /* -webkit-filter: blur(5px); */
-  /* filter: blur(.5px); */
 }
 
 .orange-acces {
@@ -18,7 +13,6 @@ background-image: url(img/fa-twitter.svg) !important;
 
 .btn-acces {
 	background-color: #ef6f34 !important;
-	/* font-weight: 200 !important; */
 }
 
 .hover-zoom:hover {
@@ -28,11 +22,6 @@ background-image: url(img/fa-twitter.svg) !important;
       transition: transform .2s;
 }
 
-/* .contactez {
-	transform: scale(1.1) !important;
-}  */
-
-/* .fa {} */
 .center {
     display: flex !important;
     justify-content: center;
@@ -62,11 +51,9 @@ body {
 a,
 button {
 	transition: all 0.3s ease-in-out;
-	/* outline: none !important; */
 }
 
 a:hover {
-	/* text-decoration: none; */
 	cursor: pointer;
 }
 
@@ -143,7 +130,7 @@ a:hover {
 }
 
 .texture-paper::before {
-	background: url("img/texture-paper.png");
+	background: url("img/png/texture-paper.png");
 	background-size: 60px 60px;
 }
 
@@ -152,8 +139,7 @@ a:hover {
 }
 
 .d-bloc {
-    /* color: rgba(255, 255, 255, 0.7); */
-    	color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
 
 }
 
@@ -514,10 +500,6 @@ nav .caret {
 	background: rgba(0, 0, 0, 0.3);
 }
 
-button {
-	/* outline: none !important; */
-}
-
 .btn-rd {
 	border-radius: 40px;
 }
@@ -707,8 +689,7 @@ label,
 a {
 	font-family: "helvetica";
 	font-weight: 400;
-    /* color: #575757 !important; */
-    	color: #000000 !important;
+    color: #000000 !important;
 
 }
 
@@ -769,11 +750,8 @@ p {
 }
 
 .social-footer {
-    /* margin-bottom: 2%; */
     display: flex ;
-    /* align-items: center; */
     justify-content: space-evenly;
-    /* flex; */
 }
 
 h2 {
@@ -845,7 +823,6 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #f3976c;
     color:black;
-    /* background: #ef6f34; !important; */
 }
 
 .tc-white {
@@ -884,19 +861,19 @@ h4 {
 }
 
 .bg-dots-bg {
-	background-image: url("img/dots-bg.png");
+	background-image: url("img/png/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
-	background-image: url("img/lines-h2-bg.png");
+	background-image: url("img/png/lines-h2-bg.png");
 }
 
 .bg-banniere {
-	background-image: url("img/la-chouette-agence-banniere.jpg");
+	background-image: url("img/jpg/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
-	background-image: url("img/image-de-presentation.jpg");
+	background-image: url("img/jpg/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
