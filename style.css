@@ -12,7 +12,7 @@ background-image: url(img/fa/fa-twitter.svg) !important;
 }
 
 .btn-acces {
-	background-color: #ef6f34 !important;
+    color: black !important;
 }
 
 .hover-zoom:hover {
@@ -831,12 +831,13 @@ h4 {
 
 .btn-atomic-tangerine {
 	background: #f3976c;
-	color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 20px;
 }
 
 .btn-atomic-tangerine:hover {
-	background: #c27956 !important;
-	color: #ffffff !important;
+	background: #ffccb6 !important;
+	color: #000000 !important;
 }
 
 .ltc-white {
