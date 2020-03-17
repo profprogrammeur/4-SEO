@@ -1,14 +1,12 @@
+/* SEO-OPTIMIZATION */
+
 .fa-chevron-left {
 background-image: url(img/fa/fa-twitter.svg) !important;
 }
 
-
+/* e-t icons color*/
 .svg-dark-slate-blue {
     fill:#364577 !important;
-}
-
-.orange-acces {
-	color: #ef6f34 !important;
 }
 
 .btn-acces {
@@ -18,6 +16,7 @@ background-image: url(img/fa/fa-twitter.svg) !important;
 .hover-zoom:hover {
 	transform: scale(1.1);
 }
+
 .hover-zoom {
       transition: transform .2s;
 }
@@ -36,8 +35,12 @@ background-image: url(img/fa/fa-twitter.svg) !important;
 .centerv {
     margin-top: 100px !important;
     margin-bottom: 100px !important;
-
 }
+
+/* ///////////////////////// */
+
+
+
 
 body {
 	margin: 0;
